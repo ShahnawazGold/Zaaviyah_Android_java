@@ -1,0 +1,14 @@
+package android303;
+
+public class Characterclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 char ch='A';
+		// System.out.println(Character.toUpperCase(ch));
+		System.out.println(Character.toLowerCase(ch));
+		 
+	}
+
+}

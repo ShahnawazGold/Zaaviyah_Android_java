@@ -1,0 +1,205 @@
+package androidFJ;
+
+public class Numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+//		 Integer x = 5; // boxes int to an Integer object
+//	      x =  x + 10;   // unboxes the Integer to a int
+//	      System.out.println(x); 
+		
+		
+		
+		///////////////////Number Methods//////////////////////
+		
+		//////////////////////////Java - xxxValue() Method/////////////
+		
+		
+//		byte byteValue()
+//		short shortValue()
+//		int intValue()
+//		long longValue()
+//		float floatValue()
+//		double doubleValue()
+//		
+//		
+//
+//		Integer  x= 5;
+//		/// return byte 
+//	      
+//		System.out.println(x.byteValue() );
+//		
+//		
+//	    // Returns double primitive data type
+//	      System.out.println(x.doubleValue());
+//
+//	      // Returns long primitive data type
+//	      System.out.println( x.longValue() ); 
+		
+		
+		/////////////////compareTo() Method////////////////////
+		
+//		public int compareTo( NumberSubClass referenceName )
+		
+		
+
+//	      Integer x = 5;
+//	      
+//	      System.out.println(x.compareTo(3));
+//	      System.out.println(x.compareTo(5));
+//	      System.out.println(x.compareTo(8)); 
+		
+	
+	      
+	      
+	      //////////////////////////////Java - equals() Method///////////////////////////////
+
+//	      Integer x = 5;
+//	      
+//	      Integer y = 15;
+//	      Integer z = 10;
+//	      
+//	      System.out.println(x.equals(y));
+//	      System.out.println(x.equals(y));  
+//	      System.out.println(x.equals(z)); 
+	      
+	      
+	      ///////////////////////////Java - valueOf() Method//////////////////////////
+	      
+//	      
+//	      static Integer valueOf(int i)
+//	      static Integer valueOf(String s)
+//	      static Integer valueOf(String s, int radix)
+	      
+	      
+//	      Integer x =Integer.valueOf(9);
+//	      Double c = Double.valueOf(5);
+//	      Float a = Float.valueOf("80");               
+//	      Integer b = Integer.valueOf("444",16);
+//
+//	      System.out.println(x); 
+//	      System.out.println(c);
+//	      System.out.println(a);
+//	      System.out.println(b);
+	      
+	      
+	////////////////////////////Java - toString() Method/////////////////////
+		
+		
+//		String toString()
+//		static String toString(int i)
+		
+		
+//	      System.out.println(x.toString());  
+//	      System.out.println(Integer.toString(12));
+//	      Integer x = 5;
+//	      System.out.println("shahh"+x.toString());
+		
+		/////////////Java - parseInt() Method/////////////
+		
+//		
+//		
+//		Syntax
+//		Following are all the variants of this method 
+//
+//		static int parseInt(String s)
+//		static int parseInt(String s, int radix)
+		
+		
+//			int x =Integer.parseInt("9");
+//	      double c = Double.parseDouble("5");
+//	      int b = Integer.parseInt("444",16);
+//	      System.out.println(x);
+//	      System.out.println(c);
+//	      System.out.println(b);
+		
+	
+	      
+	      
+	      //////////////////////////Java - abs() Method//////////////////////
+//		
+//		The method gives the absolute value of the argument. 
+//		The argument can be int, float, long, double, short, byte.
+		
+		
+//		double abs(double d)
+//		float abs(float f)
+//		int abs(int i)
+//		long abs(long lng)
+		
+//		 Integer a = -8;
+//	      double d = -100;
+//	      float f = -90;
+//
+//	      System.out.println(Math.abs(a));
+//	      System.out.println(Math.abs(d));     
+//	      System.out.println(Math.abs(f));
+		
+		
+		////////////////Java - ceil() Method////////////////
+		
+		
+		///The method ceil gives the smallest integer that is greater than or equal to the argument.
+	      
+	      
+//	      double d = -100.6;
+//	      float f = -33;
+//	     
+//	      
+//	      System.out.println(Math.ceil(d));
+//	      System.out.println(Math.ceil(f)); 
+	      
+		
+		//////////////////////Java - floor() Method///////////////
+//		
+//		double floor(double d)
+//		double floor(float f)
+		
+//		  double d = -100.675;
+//	      float f = -90;
+//
+//	      System.out.println(Math.floor(d));
+//	      System.out.println(Math.floor(f)); 
+//
+//	      System.out.println(Math.ceil(d));
+//	      System.out.println(Math.ceil(f));
+		
+		
+		///////////////////Java - rint() Method///////////////////////////////////
+		
+
+//		
+//		double d =100.76;
+//		double e = 100.8;
+//		double f = 100.399;
+//		
+//		System.out.println(Math.rint(d));
+//	      System.out.println(Math.rint(e)); 
+//	      System.out.println(Math.rint(f));
+	      
+		
+		//////////////////////Java - round() Method////////////////////
+		
+//		long round(double d)
+//		int round(float f)
+
+		
+		
+	      double d = 100.9;
+	      double e = 100.500;
+	      float f = 100;
+	      float g = 90f;
+	      System.out.println(Math.round(d));
+	      System.out.println(Math.round(e)); 
+	      System.out.println(Math.round(f)); 
+	      System.out.println(Math.round(g)); 
+	      
+	      
+	      
+	      
+	}
+
+}

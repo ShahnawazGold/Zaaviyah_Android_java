@@ -1,0 +1,44 @@
+//package zaaviyah;
+//
+//public class Classes {
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//
+//
+//	 }
+//}
+
+package zaaviyah;
+
+public class Classes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		/// //////////////////exmple 1 //////////////////////
+
+		 Box obj = new Box();
+		 double vol ;
+		 obj.width = 32;
+		 obj.height= 3;
+		 obj.depth= 30;
+		 
+		 
+		 //// cpmute volume of box 
+		 vol = obj.width * obj.depth* obj.height ;
+		 
+		 System.out.println(" volume is " + vol);
+
+	 }
+}
+
+/// //////////////////exmple 1 //////////////////////
+class Box {
+	double width ;
+	double height ;
+	double depth;
+}
+
+
+

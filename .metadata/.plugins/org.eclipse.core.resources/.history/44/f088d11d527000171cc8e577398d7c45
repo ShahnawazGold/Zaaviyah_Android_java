@@ -1,0 +1,142 @@
+package zaaviyah;
+
+public class DataTypesVariablesArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		///The Primitive Types
+		
+		
+		//////Integers//////
+		///Java defines four integer types: byte, short, int, and long.
+		
+		
+//		int lightspeed ;
+//		long days ;
+//		long sec ;
+//		long distance ;
+//		
+//		// approxmiate speed of light per secnd
+//		lightspeed =186000;
+//		days = 1000;
+//		sec = days *24* 60 * 60; // convert to sec
+//		distance   = lightspeed  *sec ;
+//		
+//		System.out.println("in " + days) ;
+//		System.out.println(distance + " miles.");
+//		
+		
+		
+		/////Floating-Point Types///////////////
+//		double 64 4.9e–324 to 1.8e+308
+//		float 32 1.4e–045 to 3.4e+038
+		
+		////////////////////////////// exmples 2 ////////////////
+		
+//		double pi , r, a;
+//		r = 10.8; // radius circle
+//		pi = 3.143 ;
+//		a = pi * r * r ; // compute area 
+//		System.out.println("area of circle" +a);
+		
+		
+	/////////////////////////////	Booleans/////////////////////////////
+		
+//		Java has a primitive type, called boolean, for logical values.
+	
+//		
+//		boolean b;
+//		b = false ;
+//		System.out.println("b is " + b);
+//		b = true ;
+//		System.out.println("b is " + b);
+//		
+//		// a boolean value can  control the if
+//		
+//		if (b) System.out.println(" this is executed ");
+//		b = false ;
+//		if (b)  System.out.println("This is not executed.");
+//		System.out.println(" 10 > 9 is " + (10 > 9));
+		
+		///////////////////String Literals////////////////////////////
+		
+//		\ddd Octal character (ddd)
+//		
+//		\' Single quote
+//		\" Double quote
+//		\\ Backslash
+//		\r Carriage return
+//		\n New line (also known as line feed)
+//		\f Form feed
+//		\t Tab
+//		\b Backspace
+		
+		/////////////////Variables////////////////
+//		The variable is the basic unit of storage in a Java program. A variable is defined by the
+//		combination of an identifier, a type, and an optional initializer. In addition, all variables have
+//		a scope, which defines their visibility, and a lifetime.
+		
+//		int a, b, c; // declares three ints, a, b, and c.
+//		int d = 3, e, f = 5; // declares three more ints, initializing
+//		// d and f.
+//		byte z = 22; // initializes z.
+//		double pi = 3.14159; // declares an approximation of pi.
+//		char x = 'x'; // the variable x has the value 'x'.
+		
+		
+		////////////////// Demonstrate lifetime of a variable.///////////
+		
+
+//		
+//		int x ;
+//		for ( x =0 ; x < 3 ; x ++) {
+//			int y = -1;
+//			
+//			System.out.println("y is :" + y); // this always prints -1
+//			y = 100;
+//			
+//			System.out.println("y is now " + y);
+//		}
+		
+		
+		////////////////////////////////////Arrays//////////////////////////////////////\
+		
+//		An array is a group of like-typed variables that are referred to by a common name. Arrays of
+//		any type can be created and may have one or more dimensions. A specific element in an
+//		array is accessed by its index. Arrays offer a convenient means of grouping related
+//		information
+		
+		
+		///////////////////////////One-Dimensional Arrays/////////
+		
+		///////////////////// Demonstrate a one-dimensional array.//////
+
+//		
+//		int month_days [] ;
+//		month_days = new int [12];
+//		
+//		month_days[0] = 31;
+//		month_days[1]= 30;
+//		month_days[2] = 29;
+//		month_days [3] = 28;
+//		month_days [4]= 30;
+//		
+//		System.out.println(" APRIL has " + month_days[3] + "days");
+		
+		
+//		
+//		int month_days[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31,
+//				30, 31 };
+//				System.out.println("April has " + month_days[3] + " days.");
+		
+		int month_days [] = {31,30,34, 25,30;
+		
+		
+		
+		
+		
+	}
+
+}

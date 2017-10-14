@@ -1,0 +1,77 @@
+package zaaviyah;
+
+public class DataTypesVariablesArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		///The Primitive Types
+		
+		
+		//////Integers//////
+		///Java defines four integer types: byte, short, int, and long.
+		
+		
+//		int lightspeed ;
+//		long days ;
+//		long sec ;
+//		long distance ;
+//		
+//		// approxmiate speed of light per secnd
+//		lightspeed =186000;
+//		days = 1000;
+//		sec = days *24* 60 * 60; // convert to sec
+//		distance   = lightspeed  *sec ;
+//		
+//		System.out.println("in " + days) ;
+//		System.out.println(distance + " miles.");
+//		
+		
+		
+		/////Floating-Point Types///////////////
+//		double 64 4.9e–324 to 1.8e+308
+//		float 32 1.4e–045 to 3.4e+038
+		
+		////////////////////////////// exmples 2 ////////////////
+		
+//		double pi , r, a;
+//		r = 10.8; // radius circle
+//		pi = 3.143 ;
+//		a = pi * r * r ; // compute area 
+//		System.out.println("area of circle" +a);
+		
+		
+	/////////////////////////////	Booleans/////////////////////////////
+		
+//		Java has a primitive type, called boolean, for logical values.
+		
+//		boolean b;
+//		b = false;
+//		System.out.println("b is " + b);
+//		b = true;
+//		System.out.println("b is " + b);
+//		// a boolean value can control the if statement
+//		if(b) System.out.println("This is executed.");
+//		b = false;
+//		if(b) System.out.println("This is not executed.");
+//		// outcome of a relational operator is a boolean value
+//		System.out.println("10 > 9 is " + (10 > 9));
+		
+		boolean b;
+		b = false ;
+		System.out.println("b is " + b);
+		b = true ;
+		System.out.println("b is " + b);
+		if(b) System.out.println("This is executed.");
+		b = false;
+		if(b) System.out.println("This is not executed.");
+		// outcome of a relational operator is a boolean value
+		System.out.println("10 > 9 is " + (10 > 9));
+		
+		
+		
+		
+	}
+
+}

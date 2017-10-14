@@ -1,0 +1,207 @@
+package zaaviyahSS;
+
+////public class Home {
+////
+////	
+////	  public int age = 10 ;
+////	  
+////	  public void setAge (int newAge) {
+////		  age = newAge ;
+////	  }
+////	  
+////	  public  int ageGet () {
+////		   return age ;
+////	   }
+////	   
+////	
+////
+////}
+////
+////  class Room extends  Home {
+////	 
+////
+////	public static void main(String[] args) {
+////		// TODO Auto-generated method stub	
+////	
+////		Room obj = new Room ();
+////		obj.setAge (2); 
+////		System.out.println("shah" + obj.ageGet() ); 	
+////		
+////		
+////		
+////
+////	}
+////	
+////}
+//
+//class Home {
+//
+//	   int z ;
+//	   public void  addition (int x, int y){
+//	       z= x+y;
+//	       System.out.println("ths sum :" + z);
+//	   }
+//	   public void subtraction (int x, int y ) {
+//	       z = x - y;
+//	       System.out.println("this subtract"+ z);
+//	   }
+//	   
+//	   public static void main(String args[]) {
+//	        int a= 20 , b= 20;
+//	        My_Calculation obj = new My_Calculation ();
+//	        obj.addition(a,b);
+//	        obj.subtraction(a,b);
+//	        obj.multiplication(a,b);
+//	    }
+//	}
+//
+//
+//
+//	class My_Calculation  extends Home {
+//	    
+//	    public void multiplication  (int x , int y){
+//	        z= x* y;
+//	        System.out.println("the product of given "  + z);
+//	    }
+//	    public static void main(String args[]) {
+//	        int a= 20 , b= 20;
+//	        My_Calculation obj = new My_Calculation ();
+//	        obj.addition(a,b);
+//	        obj.subtraction(a,b);
+//	        obj.multiplication(a,b);
+//	    }
+//	}
+
+
+public class LibraryManagement {
+	public void setPersonalInfo(){
+	    String name="Mobin ur Rehman";
+	    String fatherName="Aqiq ur Rehman";
+	    int universityId=21097;
+
+	        System.out.println("\nUser Name: "+name+"\t\t\t  University ID: "+universityId+"\nFather Name: "+fatherName);
+	}
+	String Dept1,Dept2,Dept3;
+	    public void setDepart1(String ED){
+	        Dept1=ED;
+	    }
+	    public void setDepart2(String MD){
+	        Dept2=MD;
+	    }
+	    public void setDepart3(String BD){
+	        Dept3=BD;
+	    }
+
+	    public String getDepart1(){
+	        return Dept1;
+	    }
+	    public String getDepart2(){
+	        return Dept2;
+	    }
+	    public String getDepart3(){
+	        return Dept3;
+	    }
+
+	public static void main(String args[]){
+	Scanner sc=new Scanner(System.in);    
+	    System.out.println("******************    LIBRARY MANAGEMENT SYSTEM     *******************\n");
+	    System.out.print("Enter User ID: ");        //UserID = 1234
+	    int userID=sc.nextInt();
+	    
+	    if (userID == 1234){
+	    	LibraryManagement info=new LibraryManagement();
+	        info.setPersonalInfo();
+	        System.out.println();
+	        LibraryManagement dep=new LibraryManagement();
+	    
+	    System.out.println("\t%%%% Books of Different Departments %%%%");
+	    System.out.print  ("\t----------------------------------------\n\n");
+	        System.out.println("Press 1 Books for Engineering Department. ");
+	        System.out.println("Press 2 Books for Medicle Department. ");
+	        System.out.println("Press 3 Books for Business Department. ");
+	        int dept=sc.nextInt();
+	        System.out.println();
+	        
+	    int d1 = 1;
+	    int d2 = 2;
+	    int d3 = 3;
+	        
+	        if (dept == d1){
+	            dep.setDepart1("***Books of ENGINEEING Department***\n");
+	            System.out.print(dep.getDepart1());
+	            System.out.print("--------------------------------------\n");
+	                String ED[]=new String [14];
+	                ED[0]="Logic Desighning & Circuit";
+	                ED[1]="Computer Programming & Fundamental";
+	                ED[2]="Computer Organization & Architecture";
+	                ED[3]="Computer Networking";
+	                ED[4]="Artificial Intellegence";
+	                ED[5]="Basic Electronics";
+	                ED[6]="Basic Electrical";
+	                ED[7]="circuit Analysis";
+	                ED[8]="Micro Electronic Circuit";
+	                ED[9]="Analog Electronics";
+	                ED[10]="Didcrete Math";
+	                ED[11]="Data Structure";
+	                ED[12]="Calculus";
+	                ED[13]="Complex Variable and Integral Transformation";
+	                    for(int i=0; i<ED.length; i++) {
+	                        System.out.print("* "+ED[i]+".\n");
+	                    }
+	                System.out.println();
+	        }
+	        
+	        else if(dept == d2 ){
+	            dep.setDepart2("***Books of MADICAL Department***\n");
+	            System.out.print(dep.getDepart2());
+	            System.out.print("------------------------------------\n");
+	         
+	            String MD[]=new String[12];
+	                MD[0]="Physical Pharmacy";
+	                MD[1]="Bio Chemistry";
+	                MD[2]="Anatomy";
+	                MD[3]="Pharmacology";
+	                MD[4]="Organic Chemistry";
+	                MD[5]="Physiology";
+	                MD[6]="Pharmacognosy";
+	                MD[7]="Bio Chemistry";
+	                MD[8]="Polymer Chemistry";
+	                MD[9]="InOrganic Chemistry";
+	                MD[10]="Fundamentals of Chemistry";
+	                MD[11]="ISC Chemistry";
+	                    for(int i=0; i<MD.length; i++) {
+	                        System.out.print("* "+MD[i]+".\n");
+	                    }
+	                System.out.println();    
+	        }
+	        
+	        else if(dept == d3){
+	            dep.setDepart3("***Books of BUSINESS Department***\n");
+	            System.out.print(dep.getDepart3());
+	            System.out.print("------------------------------------\n");
+	            
+	            String BD[]=new String [10];
+	                BD[0]="Human Resources Management";
+	                BD[1]="Marketing Management";
+	                BD[2]="Operation Management";
+	                BD[3]="Business Statistics";
+	                BD[4]="Financial Accounting";
+	                BD[5]="Data Analysis";
+	                BD[6]="Managerial Finance";
+	                BD[7]="Business Comunication";
+	                BD[8]="Business Laws";
+	                BD[9]="Business Environment";
+	                    for(int i=0; i<BD.length; i++) {
+	                        System.out.print("* "+BD[i]+".\n");
+	                    }
+	        }
+	        else {System.out.print("Not Avialable");}
+	    
+	    }
+	    else{
+	    System.out.println("User ID invalid!");
+	    }
+	    System.out.println("\n \t\t-------------------\t\t \n");
+	}
+
+}

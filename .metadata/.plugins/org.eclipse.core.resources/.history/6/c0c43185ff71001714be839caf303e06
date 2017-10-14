@@ -1,0 +1,94 @@
+package zaaviyah;
+
+public class MethodsAndClasses {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		///////////////Overloading Methods//////////////////
+//		double vol ;
+//		Box obj = new Box(10, 20, 15);
+//		///get volume of first box
+//		vol = obj.volume();
+//		System.out.println("Volume of mybox1 is " + vol);
+		
+		
+		//////////////Using Objects as Parameters/////////
+		
+		////////////exmplev 2////////////////////
+//		Test obj = new Test (20,50);
+//		Test obj2 = new Test(100, 22);
+//		System.out.println("ob1 == ob2: " + obj.equalTo(obj2));
+		
+	///////////////////////////////Returning Objects////////	//////////
+		
+		
+		
+		
+		
+	}
+
+}
+
+/////////////////// xmple 1 ///////////////////
+//class Box {
+//	
+//		
+//		double width ;
+//		double height ;
+//		double depth ;
+//		// this is constructor for box
+//		
+//		Box (double w, double h , double d) {
+//			width =w;
+//			height = h;
+//			depth = d;
+//		} 
+//		
+//		/// compute and return
+//		double volume () {
+//			return width * height * depth ;
+//		}
+//		
+//}
+
+//////////////////////////// exmpple2///////
+
+//Objects may be passed to methods.
+//class Test {
+//
+////	
+//	int a , b;
+//	 Test (int i , int j) {
+//		 a = i;
+//		 b = j;
+//		 
+//	 }
+//	 
+//	 ///return  true if  o is equal to invoking object 
+//	 
+//	 boolean equalTo ( Test o) {
+//		  if (o.a==a && o.b== b) return  true ;
+//		  else return false ;
+//	 }
+//}
+
+
+/////////////////// exmplke3 ////.///////
+
+//Returning an object.
+//class Test {
+//	int a;
+//	Test(int i) {
+//	a = i;
+//	}
+//	Test incrByTen() {
+//	Test temp = new Test(a+10);
+//	return temp;
+//	}
+//}
+
+
+
+

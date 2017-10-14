@@ -1,0 +1,25 @@
+package android303;
+
+public class Operator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int mark=75;
+		/*if(a<b){
+			System.out.println("A is equals to B");
+			
+		}else{
+			System.out.println("A is not equals to B");
+		}*/
+		
+		if(mark<=80 ){
+			System.out.println("A");
+		}else{
+			System.out.println("A+");
+		}
+		}
+		 
+	}
+
+

@@ -1,0 +1,20 @@
+package androidFJ;
+
+public class DecisionMaking {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+	///////////////////////	if statement in java///////
+		
+
+		
+//		int x = 10;
+//		if ( x < 20) {
+//			System.out.println("this is  iff");
+//		}
+	}
+
+}

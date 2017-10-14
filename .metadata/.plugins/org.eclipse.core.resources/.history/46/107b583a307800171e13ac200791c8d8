@@ -1,0 +1,25 @@
+package zaaviyahSS;
+
+public class Home {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		System.out.println("sobia");
+		
+		
+		int a = 34;
+		int b = 34;
+		///
+		long c = 4;
+		
+		boolean d = true ;
+		String s = "ssh";
+		
+		
+		
+
+	}
+
+}

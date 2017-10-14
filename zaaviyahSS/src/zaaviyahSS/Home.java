@@ -1,0 +1,75 @@
+package zaaviyahSS;
+
+////public class Home {
+////
+////	
+////	  public int age = 10 ;
+////	  
+////	  public void setAge (int newAge) {
+////		  age = newAge ;
+////	  }
+////	  
+////	  public  int ageGet () {
+////		   return age ;
+////	   }
+////	   
+////	
+////
+////}
+////
+////  class Room extends  Home {
+////	 
+////
+////	public static void main(String[] args) {
+////		// TODO Auto-generated method stub	
+////	
+////		Room obj = new Room ();
+////		obj.setAge (2); 
+////		System.out.println("shah" + obj.ageGet() ); 	
+////		
+////		
+////		
+////
+////	}
+////	
+////}
+//
+//class Home {
+//
+//	   int z ;
+//	   public void  addition (int x, int y){
+//	       z= x+y;
+//	       System.out.println("ths sum :" + z);
+//	   }
+//	   public void subtraction (int x, int y ) {
+//	       z = x - y;
+//	       System.out.println("this subtract"+ z);
+//	   }
+//	   
+//	   public static void main(String args[]) {
+//	        int a= 20 , b= 20;
+//	        My_Calculation obj = new My_Calculation ();
+//	        obj.addition(a,b);
+//	        obj.subtraction(a,b);
+//	        obj.multiplication(a,b);
+//	    }
+//	}
+//
+//
+//
+//	class My_Calculation  extends Home {
+//	    
+//	    public void multiplication  (int x , int y){
+//	        z= x* y;
+//	        System.out.println("the product of given "  + z);
+//	    }
+//	    public static void main(String args[]) {
+//	        int a= 20 , b= 20;
+//	        My_Calculation obj = new My_Calculation ();
+//	        obj.addition(a,b);
+//	        obj.subtraction(a,b);
+//	        obj.multiplication(a,b);
+//	    }
+//	}
+
+

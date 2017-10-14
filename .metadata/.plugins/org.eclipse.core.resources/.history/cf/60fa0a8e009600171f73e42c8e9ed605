@@ -1,0 +1,26 @@
+package android303;
+
+public class Operator {
+
+	public static void main(String[] args) {
+	int a=60;   //0011 1100
+	int b=13;   //0000 1101
+	
+	int and=a&b;
+	System.out.println("And Operator"+and );
+	
+	int or=a|b;
+	System.out.println("Or operator"+or);
+	
+	int compliment= ~a;
+	System.out.println("compliment" +compliment);
+	
+	int fwd= a>>2;
+	System.out.println(fwd);
+	
+	int bck=a<<2;
+	System.out.println(bck);}
+		 
+	}
+
+

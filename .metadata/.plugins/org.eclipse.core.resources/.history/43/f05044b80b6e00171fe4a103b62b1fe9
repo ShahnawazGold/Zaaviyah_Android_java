@@ -1,0 +1,210 @@
+package zaaviyah;
+
+public class Classes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+//		The class is at the core of Java. It is the logical construct upon which the entire Java language
+//		is built because it defines the shape and nature of an object. As such, the class forms the
+//		basis for object-oriented programming in Java. Any concept you wish to implement in a Java
+//		program must be encapsulated within a class.
+//		
+//		Because the class is so fundamental to Java, this and the next few chapters will be devoted
+//		to it. Here, you will be introduced to the basic elements of a class and learn how a class can be
+//		used to create objects. You will also learn about methods, constructors, and the this keyword.
+		
+		
+		
+//		class Box {
+//			double width;
+//			double height;
+//			double depth;
+//			}
+		
+		
+		
+//		
+//		Box obj  = new Box() ;
+//		double vol ;
+//		obj.width =10;
+//		obj.height = 19;
+//		obj.depth = 10;
+//		vol = obj.width * obj.height * obj.depth  ;
+//		System.out.println("volum is " + vol);
+		
+		
+//		Box mybox1 = new Box();
+//		Box mybox2 = new Box();
+//		double vol;
+//		// assign values to mybox1's instance variables
+//		mybox1.width = 10;
+//		mybox1.height = 20;
+//		mybox1.depth = 15;
+//		/* assign different values to mybox2's
+//		instance variables */
+//		mybox2.width = 3;
+//		mybox2.height = 6;
+//		mybox2.depth = 9;
+//		// get volume of first box
+//		vol = mybox1.volume();
+//		System.out.println("Volume is " + vol);
+//		// get volume of second box
+//		vol = mybox2.volume();
+//		System.out.println("Volume is " + vol);
+		 
+		 // create of object here return method 
+	////////////////////// exmple 4 	
+//		Box obj1  =  new Box();
+//		  double vol;
+//		 /// assg values 
+//		  
+//		  obj1.depth= 310;
+//		  obj1.width = 40.4;
+//		  obj1.height = 40.4;
+//		  
+//		  
+//		  vol = obj1.volume();
+//		  
+//		  System.out.print("volume is " + vol);
+		
+  //////////////////////////////////////Adding a Method That Takes Parameters////////////
+//		
+//				Box  obj1 = new Box ();	
+//				double vol ;
+//				// intialization 
+//				obj1.setDim (19,40,6);
+//				
+//				 vol = obj1.volume();
+//				 	System.out.println( "volum is" + vol);
+//			
+		
+		///////////////Constructors///////////////
+		//Here, Box uses a constructor to initialize the
+		// declare, allocate, and initialize Box objects
+	
+//	Box obj1 = new Box ();
+//	 double vol ;
+//	 
+//	 //  get volume of first 
+//	  vol = obj1.volume ();
+//	  System.out.println("volume " + vol);
+//		
+		
+		
+		
+		//////////////////////Parameterized Constructors/////////////////////
+		// declare, allocate, and initialize Box objects
+//		Box mybox1 = new Box(10, 20, 15);
+//		Box mybox2 = new Box(3, 6, 9);
+//		double vol;
+//		// get volume of first box
+//		vol = mybox1.volume();
+//		System.out.println("Volume is " + vol);
+//		// get volume of second box
+//		vol = mybox2.volume();
+//		System.out.println("Volume is " + vol);
+		
+		Box obj1 = new Box (10,29,49);
+		 
+		double vol ;
+		vol = obj1.volume ();
+		System.out.println("volum is " +vol);
+		
+		
+	}
+			
+}
+//////////////////////Adding a Method to the Box Class///////////////
+
+
+//class Box {
+//	double width ;
+//	double height ;
+//	double depth;
+//}
+class Box {
+//	double width;
+//	double height;
+//	double depth;
+//	// display volume of a box
+//	void volume() {
+//	System.out.print("Volume is ");
+//	System.out.println(width * height * depth);
+//	}
+
+	////////////////////////////// exmple 4 //////
+//	double width;
+//	double height;
+//	double depth;
+//	// compute and return volume
+//	double volume() {
+//	return width * height * depth;
+//	}
+	
+	////////////////////// This program uses a parameterized method.///////////////////
+	
+//
+//	double width ;
+//	double height ;
+//	double depth ;
+//	
+//	/// compute and return volume
+//	
+//	double volume () {
+//		
+//		return  width * height * depth;
+//		
+//	}
+//	 // sets dimension of box
+//	void setDim ( double w , double h , double d) {
+//		 width = w;
+//		 height = h ;
+//		  depth = d;
+//		  
+//	}
+	
+	
+	///////////Here, Box uses a constructor to initialize the/////////////
+
+//	double width ;
+//	double height ;
+//	double depth ;
+//	
+//	// this constructor for box 
+//	Box(){	
+//	System.out.println( " constructor box");
+//		width =10;
+//		height = 10 ;
+//		depth = 10;
+//		
+//	}
+//	// compute and return volume 
+//	double volume () {
+//		return width * depth * height ;
+//		
+//	}
+	////////////////////////////// parameter construtor
+
+	
+	 double width ;
+	 double height ;
+	 double depth ;
+	 
+	 /// this is the constructor for box 
+	 
+	 Box ( double w , double h , double d) {
+		  width = w;
+		  depth = d;
+		  height = h ;	
+	 }
+	
+	 double volume () {
+		 return width * height * depth;
+	 }
+}
+
+
+
+

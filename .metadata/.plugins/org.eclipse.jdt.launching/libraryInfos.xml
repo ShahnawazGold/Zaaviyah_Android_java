@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files\Java\shah" version="1.8.0_131">
+<bootpath>
+<entry path="C:\Program Files\Java\shah\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\shah\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\shah\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\shah\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\shah\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\shah\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\shah\lib\jfr.jar"/>
+<entry path="C:\Program Files\Java\shah\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\shah\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\shah\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

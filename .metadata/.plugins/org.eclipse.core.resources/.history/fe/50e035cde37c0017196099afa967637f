@@ -1,0 +1,22 @@
+package zaaviyahSS;
+
+public class methods {
+
+	/// local method
+	public void  ageSet () {
+		
+		int age = 23;
+		System.out.println("age is" +age);
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		
+	}
+
+}

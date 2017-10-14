@@ -1,0 +1,63 @@
+package androidFJ;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		////////////////////////////Basic Operators//////////////////////////////
+		
+	//	
+	//	
+//		Java provides a rich set of operators to manipulate variables. We can divide all the Java operators into the following groups 
+	//
+//		Arithmetic Operators
+//		Relational Operators
+//		Bitwise Operators
+//		Logical Operators
+//		Assignment Operators
+//		Misc Operators
+		
+		
+		///////////////////////////The Arithmetic Operators////////////////////
+		
+		
+//		
+//		
+//		
+//		int a = 2;
+//		int b= 3;
+//		int c = (a+b);
+//		int d = (a-b);
+//		int e = (a * b);
+//		int f = (a /b) ;
+//		int  g = (a--);
+//		int h = (a++);
+//		System.out.println(" a +b =" +c);
+//		System.out.println(" a - b =" +d);
+//		System.out.println(" a - b =" +e);
+//		System.out.println(" a - b =" +f);
+//		
+//	      System.out.println("c % a = " + (b % a) );
+//	      System.out.println("a++   = " + h );
+//	      System.out.println("a--   = " +  g);
+	      
+	      
+	      
+	     /////////////////////////////////////////The Relational Operators/////////////
+		
+		
+		
+		int a = 2;
+		int b = 4;
+		
+	
+		
+		
+		
+		
+		
+	}
+
+}

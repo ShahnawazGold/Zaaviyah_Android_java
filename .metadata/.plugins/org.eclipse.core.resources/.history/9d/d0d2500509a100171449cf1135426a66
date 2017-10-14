@@ -1,0 +1,55 @@
+package android303;
+
+
+
+public class Home_class {
+
+	
+ public   String phy = "phy";
+ public  String bio = "bio";
+ 
+ 
+
+ 
+   void setPhy (  String  Sphy ) {
+	   phy =Sphy;   
+   }
+   
+   String getPhy () {
+	     
+	   return phy;
+	   
+   } 
+  
+   void setbio (  String  Sbio ) {
+	   bio =Sbio;   
+   }
+   
+   String getBio () {
+	     
+	  return bio;
+	   
+   } 
+   
+   Home_class () {
+		 System.out.println( "contractor A " );
+	 }
+	 
+    // main method 
+	public static void main (String [] args ) {
+		// 
+		
+		Home_class obj = new Home_class () ;
+		
+		obj.setPhy("TABISH");
+		obj.setbio("faisal");
+		obj.getPhy();
+		obj.getBio();
+		System.out.println( "Subject teacher " +obj.getPhy());
+		System.out.println( "Subject teacher " +obj.getBio());
+		
+	}
+	
+	
+	
+}

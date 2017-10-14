@@ -1,0 +1,44 @@
+package zaaviyahSS;
+
+public class Home {
+
+	
+	  public int age = 10 ;
+	  
+	  public void setAge (int newAge) {
+		  age = newAge ;
+	  }
+	  
+	   int ageGet () {
+		   return age ;
+	   }
+	   
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	
+		Home obj = new Home ();
+		obj.setAge (2); 
+		System.out.println("shah" + obj.ageGet() ); 
+		
+		
+		
+		
+		
+
+	}
+
+}
+
+class Room extends  Home {
+	 
+
+	
+//	public static void  main (String args[] ) {
+//		Room obj = new Room ();
+//		obj.setAge (2); 
+//		System.out.println("shah" + obj.ageGet() ); 
+//	}
+	
+}
